@@ -10,6 +10,7 @@ ADD . /mayhem-cmake-example
 WORKDIR /mayhem-cmake-example
 
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
+RUN mkdir build
 RUN CC=clang CXX=clang++ cmake build
 
 # Package Stage
