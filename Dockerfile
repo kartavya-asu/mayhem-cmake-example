@@ -10,7 +10,7 @@ ADD . /mayhem-cmake-example
 WORKDIR /mayhem-cmake-example
 
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
-RUN CC=clang CXX=clang++ cmake .
+RUN CC=clang CXX=clang++ cmake build
 
 # Package Stage
 FROM --platform=linux/amd64 ubuntu:20.04
