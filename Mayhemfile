@@ -1,5 +1,5 @@
 project: kartavya-asu/mayhem-cmake-example
-target: fuzzme
+target: build/fuzzme
 
 cmds:
-  - cmd: /fuzzme
+  - cmd: build/fuzzme
